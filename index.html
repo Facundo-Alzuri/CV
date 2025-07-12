@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facundo Alzuri - Administración & Marketing Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Responsive -->
+    <header class="header">
+        <div class="container header-content">
+            <h1 class="logo">Facundo Alzuri</h1>
+            
+            <!-- Botón de hamburguesa para móviles -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#synup">SYNUP</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2>Transformo ideas en resultados:<br><span>Administración eficiente & marketing digital estratégico</span></h2>
+                <a href="#sobre-mi" class="btn">Conocé más</a>
+            </div>
+            <div class="hero-image">
+                <img src="tu-foto.jpg" alt="Facundo Alzuri">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <p>👋 Soy Facundo Alzuri, uruguayo de 27 años, Analista en Administración de Empresas y estudiante de Marketing Digital en Valencia. Comencé como empleado en una empresa familiar, llegué a ser su director y hoy ayudo a negocios a crecer mediante la gestión empresarial y la estrategia digital.</p>
+            <a href="CV-Facundo-administración.pdf" class="btn-outline" download>Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <h3>🏢 Gestión Empresarial</h3>
+                    <p>Optimización de procesos, contabilidad, liderazgo de equipos y toma de decisiones estratégicas para mejorar la eficiencia operativa.</p>
+                </div>
+                <div class="servicio-card">
+                    <h3>🚀 Marketing Digital</h3>
+                    <p>Estrategias digitales, creación de contenido, embudos de venta y presencia online para aumentar tu alcance y conversiones.</p>
+                </div>
+                <div class="servicio-card">
+                    <h3>🧠 Pensamiento Estratégico</h3>
+                    <p>Visión integral para conectar negocio y comunicación, con foco en resultados medibles y crecimiento sostenible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SYNUP -->
+    <section id="synup" class="synup">
+        <div class="container">
+            <div class="synup-content">
+                <img src="synup-logo.png" alt="Logo de SYNUP" class="synup-logo">
+                <p>SYNUP es una empresa que co-fundé junto a Lucía Leiva, Diseñadora Gráfica y Desarrolladora Web. Nuestro objetivo es ayudar a pequeñas y medianas empresas a construir y potenciar su presencia online.</p>
+                <p>En SYNUP me encargo de liderar la estrategia de marketing digital, la planificación de campañas y colaboro activamente en el área de Community Management para generar comunidades reales y comprometidas.</p>
+                <a href="#contacto" class="btn">Contactar sobre SYNUP</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="experiencia">
+        <div class="container">
+            <h2>Mi Trayectoria</h2>
+            <div class="experiencia-grid">
+                <div class="experiencia-card">
+                    <h3>👷‍♂️ Empleado - Expo Diseño</h3>
+                    <p>2017</p>
+                    <p>Gestión operativa y contacto con proveedores en empresa familiar.</p>
+                </div>
+                <div class="experiencia-card">
+                    <h3>🏭 Encargado de Taller</h3>
+                    <p>2020</p>
+                    <p>Coordinación de proyectos y personal, mejorando procesos internos.</p>
+                </div>
+                <div class="experiencia-card">
+                    <h3>👨‍💼 Director</h3>
+                    <p>2022-2024</p>
+                    <p>Gestión integral de empresa, liderando equipo de 15+ personas.</p>
+                </div>
+                <div class="experiencia-card">
+                    <h3>🚀 Co-fundador - SYNUP</h3>
+                    <p>2024-Presente</p>
+                    <p>Marketing Digital y Community Management para marcas con propósito.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Hablemos</h2>
+            <div class="contacto-form">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="79febd0e-11e4-4662-89b2-7fd5293a5c72">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="message" rows="5" placeholder="Escribí tu mensaje aquí" required></textarea>
+                    </div>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <button type="submit" class="btn">Enviar mensaje</button>
+                </form>
+            </div>
+            <div class="contacto-directo">
+                <p>📩 <a href="mailto:facundoalzuri07@gmail.com">facundoalzuri07@gmail.com</a></p>
+                <p>🔗 <a href="https://www.linkedin.com/in/facundo-alzuri-6b9973363/" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Facundo Alzuri | Administración & Marketing Digital</p>
+            <p>📍 Valencia, España</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript para el menú responsive -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menuToggle');
+            const mainNav = document.getElementById('mainNav');
+            
+            if(menuToggle && mainNav) {
+                menuToggle.addEventListener('click', function() {
+                    this.classList.toggle('open');
+                    mainNav.classList.toggle('active');
+                });
+                
+                // Cerrar menú al hacer clic en enlaces
+                const navLinks = document.querySelectorAll('.nav-list a');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        if (window.innerWidth <= 768) {
+                            menuToggle.classList.remove('open');
+                            mainNav.classList.remove('active');
+                        }
+                    });
+                });
+                
+                // Cerrar menú al hacer clic fuera
+                document.addEventListener('click', function(event) {
+                    const isClickInsideNav = mainNav.contains(event.target);
+                    const isClickOnToggle = menuToggle.contains(event.target);
+                    
+                    if (!isClickInsideNav && !isClickOnToggle && mainNav.classList.contains('active')) {
+                        menuToggle.classList.remove('open');
+                        mainNav.classList.remove('active');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
